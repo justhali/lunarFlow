@@ -1,11 +1,19 @@
 const express = require('express');
 const mongoose = require('mongoose');
-const port = process.env.PORT || 3000; 
+require('dotenv').config();
+const port = 3000;
+const dbPassword  = process.env.DB_PASSWORD; 
 
 const app = express();
-console.log(process.env.MONGODB_URI)
 
 
-app.listen(port, () => {
-  console.log(`Server listening on port: ${port}`);
-});
+mongoose
+    .connect(`mongodb+srv://french_sisters:${dbPassword}@hackathon.wrlpzyf.mongodb.net/?retryWrites=true&w=majority`)
+    .then(() => {
+        console.log('Connected to MongoDb')
+        app.listen(port, () => {
+            console.log(`Server starts on port http://localhost:${port}`)
+        })
+    }).catch((error) => {
+        console.log(error)
+    })
