@@ -1,15 +1,18 @@
+require('dotenv').config();
 const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
-const port = 3000;
-const dbPassword  = process.env.DB_PASSWORD; 
+const port = process.env.PORT;
+const dbPassword = process.env.DB_PASSWORD;
 const quoteController = require('../app/controllers/quoteController');
 
-require('dotenv').config();
 app.use(express.json())
 
 // ROUTES 
 app.get('/quotes', quoteController.getQuotes)
+app.get('/quotes/:id', quoteController.getQuote)
+app.put('/quotes/:id', quoteController.updateQuote)
+app.delete('/quotes/:id', quoteController.deleteQuote)
 app.post('/quotes', quoteController.addQuote)
 
 mongoose
