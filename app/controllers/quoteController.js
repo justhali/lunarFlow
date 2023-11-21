@@ -1,4 +1,4 @@
-const Quote = require('../models/quoteModel');
+const Quote = require('../models/Quote');
 
 class QuoteController {
     async getQuotes(req, res){
