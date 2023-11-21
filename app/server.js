@@ -16,10 +16,19 @@ const port = process.env.PORT || 3000;
 app.use(session({
     secret: process.env.SECRET_SESSION,
     resave: false,
-    saveUninitialized: true
+    saveUninitialized: true,
+    store: MongoStore.create({ 
+        mongoUrl: process.env.MONGO_URI,
+        dbName: process.env.MONGO_DB_NAME
+    })
 }));
 app.use(express.urlencoded({ extended: false }))
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).send('Something went wrong!');
+});
 app.use(express.json());
+
 
 // PassportJS
 app.use(passport.initialize());

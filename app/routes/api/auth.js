@@ -5,9 +5,12 @@ const router = express.Router();
 const authController = require('../../controllers/authController')
 
 router.get('/login', authController.login);
-router.post('/login/password', passport.authenticate('local', {
-    successRedirect: '/dashboard',
-    failureRedirect: '/login?error=true'
-}));
+router.get('/logout', authController.logout);
+
+// Redirection when logged but doesn't work. Need to try later when front is connected
+// router.post('/login/password', passport.authenticate('local', {
+//     successRedirect: '/dashboard',
+//     failureRedirect: '/login?error=true'
+// }));
 
 module.exports = router; 

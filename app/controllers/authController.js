@@ -3,7 +3,7 @@ const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
 const passport = require('../auth/auth');
 
-class authController {
+class authController{
     async login(req, res) {
         try {
             const { email, password } = req.body;
@@ -12,14 +12,14 @@ class authController {
             const user = await User.findOne({ email });
 
             if (!user) {
-                throw new Error('Ok');
+                throw new Error('Not good');
             }
 
             // Vérifier si le mot de passe correspond
             const isMatch = await bcrypt.compare(password, user.password);
 
             if (!isMatch) {
-                throw new Error('pas Ok');
+                throw new Error('Not that good');
             }
 
             const payload = {
@@ -28,7 +28,8 @@ class authController {
                 },
             };
 
-            delete user._doc.password; // Supprimer le mot de passe du document utilisateur
+            const userWithoutPassword = { ...user._doc };
+            delete userWithoutPassword.password;
 
             jwt.sign(
                 payload,
@@ -46,16 +47,17 @@ class authController {
             res.status(500).json({ message: error.message });
         }
     }
-    logout(req, res) {
+
+    async logout(req, res) {
         req.logout();
-        res.status(200).json({ message: 'Successfully logout' });
+        res.status(200).json({ message: 'Successfully logged out' });
     }
 
-    // Middleware to check if the user is authenticated
-    isLoggedIn(req, res, next) {
-        if (req.isAuthenticated()) return next();
-        res.redirect('/login');
-    }
+    // // Middleware to check if the user is authenticated
+    // async isLoggedIn(req, res, next) {
+    //     if (req.isAuthenticated()) return next();
+    //     res.redirect('/login');
+    // }
 
 
 }
