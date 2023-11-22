@@ -1,9 +1,11 @@
-import { StatusBar, StyleSheet, Text, View, Image, TouchableOpacity } from 'react-native';
+import { StatusBar, StyleSheet, Text, View, Image } from 'react-native';
 import Button from '../App/components/Button/Button';
+import { SafeAreaProvider } from 'react-native-safe-area-context'
 const logoImg = require('../assets/favicon.png')
 
 export default function App() {
   return (
+    <SafeAreaProvider>
     <View style={styles.container}>
       <StatusBar/>
       <Image source={logoImg} style={{width:60, height: 60, backgroundColor: 'gainsboro', borderRadius: 50}}></Image>
@@ -18,6 +20,7 @@ export default function App() {
       
         <Button></Button>
     </View>
+    </SafeAreaProvider>
   );
 }
 
