@@ -6,9 +6,9 @@ const moodController = require('../../controllers/moodController');
 
 
 router.get('/moods', moodController.getMoods)
-router.get('/moods/:id', moodController.getMood)
-router.put('/moods/:id', moodController.updateMood)
-router.delete('/moods/:id', moodController.deleteMood)
-router.post('/moods', moodController.addMood)
+router.get('/mood/:id', moodController.getMood)
+router.put('/mood/:id', moodController.updateMood)
+router.delete('/mood/:id', moodController.deleteMood)
+router.post('/mood', moodController.addMood)
 
 module.exports = router;

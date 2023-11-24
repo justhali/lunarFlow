@@ -19,7 +19,7 @@ class MoodController {
         }
     }
     async addMood(req, res){
-        const{ img, category } = req.body;
+        const{ img, category} = req.body;
         try {
             const newMood = new Mood({img, category});
             await newMood.save()
