@@ -10,7 +10,10 @@ const Tab = createBottomTabNavigator();
 
 export default function BottomTabs() {
     return (
-        <Tab.Navigator initialRouteName='Dashboard'>
+        <Tab.Navigator 
+            initialRouteName='Dashboard'
+            screenOptions={{ headerShown: false }}
+            >
             <Tab.Screen
                 name="Liked"
                 component={QuotesLiked}
