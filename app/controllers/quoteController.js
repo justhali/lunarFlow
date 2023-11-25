@@ -19,9 +19,9 @@ class QuoteController {
         }
     }
     async addQuote(req, res){
-        const{ description, category } = req.body;
+        const{ description, category, mood_id, phase_id} = req.body;
         try {
-            const newQuote = new Quote({description, category});
+            const newQuote = new Quote({description, category, mood_id, phase_id});
             await newQuote.save()
             res.status(201).json({message : 'New quote successfully added'})
         } catch (error) {
