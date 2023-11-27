@@ -3,7 +3,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import React from 'react'
 import BottomTabs from '../../common/BottomTabs'
 
-export default function Dashboard() {
+const Dashboard = () => {
   return (
     <SafeAreaView>
       <View>
@@ -15,3 +15,5 @@ export default function Dashboard() {
 }
 
 const styles = StyleSheet.create({})
+
+export default Dashboard;

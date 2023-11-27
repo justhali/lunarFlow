@@ -1,18 +1,16 @@
-import { View, StyleSheet, Pressable, Text } from "react-native";
-import { useNavigation } from '@react-navigation/native';
 
-export default function BtnPrimary({ text, onPress }) {
-  const navigation = useNavigation();
-  const handleNav = () => {
-    navigation.navigate(onPress);
-  }
+import { View, StyleSheet, Pressable, Text } from "react-native";
+
+
+export default function Button({ onPress, children }) {
+
 
   return (
     <View>
       <Pressable
         style={[styles.clickButton]}
-        onPress={handleNav}>
-        <Text style={{ fontWeight: 'bold', fontSize: 16 }}>{text}</Text>
+        onPress={onPress}>
+        <Text style={[styles.textBtn]}>{children}</Text>
       </Pressable>
     </View>
   );
@@ -20,15 +18,24 @@ export default function BtnPrimary({ text, onPress }) {
 
 const styles = StyleSheet.create({
   clickButton: {
-    backgroundColor: "lightgrey",
-    justifyContent: "center",
-    paddingVertical: 13, 
-    paddingHorizontal: 30,
-    borderRadius: 17,
-    shadowColor: 'gainsboro', // IOS
-    shadowOffset: { height: 1, width: 1 }, // IOS
-    shadowOpacity: 1, // IOS
-    shadowRadius: 1, //IOS
-    elevation: 2, // Android
+    backgroundColor: "#9FCCB7",
+    paddingVertical: 10,
+    paddingHorizontal: 15,
+    borderRadius: 30,
+    alignItems: 'center', // Aligner le texte au centre horizontalement
+    justifyContent: 'center', // Aligner le texte au centre verticalement
+    shadowColor: "#000000",
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity:  0.17,
+    shadowRadius: 3,
+    elevation: 4
+  }, 
+  textBtn:{
+    color: '#2A3432', 
+    fontSize: 20,
+    fontWeight: "bold"   
   }
 });
