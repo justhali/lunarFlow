@@ -1,0 +1,63 @@
+*****Dans le model Phase*****
+[] Ajouter les champs startDate et endDate avec le 'type : Date'
+
+
+*****Dans le controller de Phase*****
+[] Ajouter dans le try and catch de la fonction 'addPhase' la logique suivante 
+
+`````````````````````````````````````````````````````````````````````````````````
+try {
+            
+            if (category !== 'Menses') {
+                return res.status(400).json({ message: 'Only Menses category can receive dates' });
+            }
+
+            const newPhase = new Phase({ description, category, startDate, endDate });
+
+            await newPhase.save();
+
+            res.status(201).json
+        } catch (error) {
+            res.status(500).json
+        }
+`````````````````````````````````````````````````````````````````````````````````
+
+
+*****Dans le fichier Calendar.js*****
+[] Saisir les dates enregistrées par l'utilisatrice en créant une fonction qui se déclenche au clic
+
+`````````````````````````````````````````````````````````````````````````````````
+import { saveDates } from '../../api/axiosConfig' (Ajout de l'import du fichier axios)
+
+const Dashboard = () => {
+  const [selectedStartDate, setSelectedStartDate] = useState(null);
+  const [selectedEndDate, setSelectedEndDate] = useState(null);
+
+
+  const onDateChange = (date, type) => {
+    //function to handle the date change
+    if (type === 'END_DATE') {
+      setSelectedEndDate(date);
+    } else {
+      setSelectedEndDate(null);
+      setSelectedStartDate(date);
+    }
+  };
+
+(Ajout de la logique qui se déclenchera au clic)
+  const handleSaveDates = () => {
+    const category = 'Menses';
+    saveDates(selectedStartDate, selectedEndDate, category)
+  }
+`````````````````````````````````````````````````````````````````````````````````
+
+
+
+*****Code au niveau du bouton *****
+`````````````````````````````````````````````````````````````````````````````````
+  <Button 
+        title="Save the dates"
+        onPress={handleSaveDates}
+        >
+</Button>
+`````````````````````````````````````````````````````````````````````````````````

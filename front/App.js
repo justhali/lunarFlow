@@ -17,7 +17,7 @@ export default function App() {
   return (
       <NavigationContainer>
           <Stack.Navigator 
-              initialRouteName="BottomTabs"
+              initialRouteName="Launch"
               screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Launch" component={LaunchScreen} />
             <Stack.Screen name="Register" component={RegisterScreen} />
