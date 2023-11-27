@@ -1,19 +1,27 @@
-import { View, StyleSheet, TouchableOpacity, Text } from "react-native";
+import { View, StyleSheet, Pressable, Text } from "react-native";
+import { useNavigation } from '@react-navigation/native';
 
-export default function Button(){
-  return(
+export default function BtnPrimary({ text, onPress }) {
+  const navigation = useNavigation();
+  const handleNav = () => {
+    navigation.navigate(onPress);
+  }
+
+  return (
     <View>
-      <TouchableOpacity 
-          style={[styles.clickButton]}>
-          <Text style={{fontWeight: 'bold', fontSize: 16}}> Let's do this !</Text>
-      </TouchableOpacity>
+      <Pressable
+        style={[styles.clickButton]}
+        onPress={handleNav}>
+        <Text style={{ fontWeight: 'bold', fontSize: 16 }}>{text}</Text>
+      </Pressable>
     </View>
-  )
+  );
 }
 
 const styles = StyleSheet.create({
   clickButton: {
     backgroundColor: "lightgrey",
+    justifyContent: "center",
     paddingVertical: 13, 
     paddingHorizontal: 30,
     borderRadius: 17,
