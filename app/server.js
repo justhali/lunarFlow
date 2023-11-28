@@ -3,12 +3,14 @@ const express = require('express');
 const app = express();
 const connectDB = require('./config/db');
 const session = require('express-session');
-const MongoStore = require('connect-mongo')
+const MongoStore = require('connect-mongo');
 const passport = require('./auth/auth');
 
 const quotesRoutes = require('./routes/api/quotes');
 const usersRoutes = require('./routes/api/users');
 const authRoutes = require('./routes/api/auth');
+const phasesRoutes = require('./routes/api/phases');
+const moodsRoutes = require('./routes/api/moods');
 
 const port = process.env.PORT || 3000;
 
@@ -39,6 +41,8 @@ app.use(passport.session());
 connectDB();
 
 // Routes
+app.use('/api', moodsRoutes)
+app.use('/api', phasesRoutes)
 app.use('/api', quotesRoutes)
 app.use('/api', usersRoutes)
 app.use('/api', authRoutes)
