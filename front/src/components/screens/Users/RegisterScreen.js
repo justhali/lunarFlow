@@ -73,7 +73,7 @@ export default function RegisterScreen({ navigation }) {
                 </View>
 
             </View>
-            <Button onPress={() => navigation.navigate("Dashboard")}>
+            <Button onPress={() => navigation.navigate('Dashboard')}>
                 <Text>Sign in</Text>
             </Button>
         </SafeAreaView>
