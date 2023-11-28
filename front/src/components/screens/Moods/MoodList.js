@@ -2,7 +2,6 @@ import { SafeAreaView, StyleSheet, Text, TextInput, View, Pressable, TouchableOp
 import { AntDesign } from '@expo/vector-icons'
 import { useState } from 'react';
 import Button from '../../common/Button'
-import BottomTabs from '../../common/BottomTabs';
 
 const  Mood = () => {
   const [selectedMoods, setSelectedMoods] = useState([]);
