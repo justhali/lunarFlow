@@ -7,7 +7,7 @@ import LaunchScreen  from './src/components/screens/Generic/LaunchScreen';
 import RegisterScreen  from './src/components/screens/Users/RegisterScreen';
 import Login from './src/components/screens/Users/LoginScreen'
 import Dashboard from './src/components/screens/Generic/Dashboard';
-import BottomTabs from './src/components/common/BottomTabs';
+// import BottomTabs from './src/components/common/BottomTabs';
 import Mood from './src/components/screens/Moods/MoodList';
 
 const Stack = createNativeStackNavigator();
@@ -18,7 +18,7 @@ export default function App() {
   return (
       <NavigationContainer>
           <Stack.Navigator 
-              initialRouteName="Mood"
+              initialRouteName="Launch"
               screenOptions={{ headerShown: false }}>
             <Stack.Screen name="Launch" component={LaunchScreen} />
             <Stack.Screen name="Register" component={RegisterScreen} />
