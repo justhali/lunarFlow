@@ -5,7 +5,7 @@ import { SafeAreaView, StyleSheet, View, Text, Button } from 'react-native';
 import CalendarPicker from 'react-native-calendar-picker';
 // import axios from 'axios';
 
-const Calendar = () => {
+export default function Calendar() {
   const [selectedStartDate, setSelectedStartDate] = useState(null);
   const [selectedEndDate, setSelectedEndDate] = useState(null);
 
@@ -91,7 +91,7 @@ const Calendar = () => {
     </SafeAreaView>
   );
 };
-export default Calendar;
+
 
 const styles = StyleSheet.create({
   container: {

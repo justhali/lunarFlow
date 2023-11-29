@@ -1,12 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { ScrollView, View, Text } from 'react-native'
+import QuotesComponent from '../../common/QuotesComponent'
+import React from 'react'  
 
-export default function QuotesLiked() {
+export default function QuotesLiked()  {
   return (
     <View>
-      <Text>QuotesLiked</Text>
+      <ScrollView>
+        <QuotesComponent />
+        <QuotesComponent />
+        <QuotesComponent />
+      </ScrollView>
     </View>
   )
-}
+};
 
-const styles = StyleSheet.create({})
+ 

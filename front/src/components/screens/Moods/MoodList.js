@@ -3,7 +3,7 @@ import { AntDesign } from '@expo/vector-icons'
 import { useState } from 'react';
 import Button from '../../common/Button'
 
-const  Mood = () => {
+const  MoodList = () => {
   const [selectedMoods, setSelectedMoods] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
   const moods = [
@@ -101,6 +101,8 @@ const  Mood = () => {
   )
 }
 
+export default MoodList;
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -155,4 +157,3 @@ const styles = StyleSheet.create({
   },
 })
 
-export default Mood;

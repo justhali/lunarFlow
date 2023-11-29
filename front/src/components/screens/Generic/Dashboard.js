@@ -1,6 +1,7 @@
 import { SafeAreaView, StyleSheet, View, Text, StatusBar, ScrollView, Pressable, Image } from 'react-native';
 import { AntDesign } from '@expo/vector-icons'
 import BottomTabs from '../../common/BottomTabs';
+import TopTabs from '../../common/TopTabs';
 import { useNavigation } from '@react-navigation/native';
 
 const Dashboard = () => {
@@ -8,7 +9,9 @@ const Dashboard = () => {
   return (
     <SafeAreaView style={styles.container}>
       <ScrollView style={styles.scrollView}>
-        <StatusBar />
+        <StatusBar 
+          barStyle="dark-content" />
+        <TopTabs />
         <View style={styles.textStyle}>
           <Text>Today | 14th day of your cycle</Text>
           <Text style={{ fontSize: 16, fontWeight: 'bold' }}> 8 days until your next period</Text>
@@ -188,4 +191,6 @@ const styles = StyleSheet.create({
       elevation: 3
     }
 });
+ 
+
 

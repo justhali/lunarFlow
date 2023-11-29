@@ -1,0 +1,559 @@
+[{
+  "_id": {
+    "$oid": "655fc3f9f51c1c92d2df854b"
+  },
+  "description": "• And they planned and Allah also planned and Allah is the best of planners [Quran 3:54]",
+  "category": "quranAndSunnah",
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:28:25.357Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:28:25.357Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc5e0f51c1c92d2df854d"
+  },
+  "description": "And to Allah belongs whatever is in the heavens and whatever is on the earth. He forgives whom He wills and punishes whom He wills. And Allah is forgiving and merciful.” [Quran 3:129].",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:36:32.333Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:36:32.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc601f51c1c92d2df854f"
+  },
+  "description": "Allah still loves and shows mercy to those who disobey Him, so imagine how much He loves those who obey Him.",
+  "category": "quote\"",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:37:05.256Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:37:05.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc640f51c1c92d2df8551"
+  },
+  "description": "Once prayer becomes a habit, success becomes a lifestyle.",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:38:08.883Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:38:08.883Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc69ef51c1c92d2df8553"
+  },
+  "description": "Don't forget to read your morning dou'a",
+  "category": "reminder",
+  "phase_id": {
+    "$oid": "655fb3668eeb935eaf1cf660"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:39:42.620Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:39:42.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc6baf51c1c92d2df8555"
+  },
+  "description": "“If you want to focus more on Allah in your prayers, focus more on Him outside your prayers.” [Yasmin Mogahed]",
+  "category": "quote",
+  "phase_id": {
+    "$oid": "655fb3668eeb935eaf1cf660"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:40:10.477Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:40:10.477Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc6f2f51c1c92d2df8557"
+  },
+  "description": "“And if there comes to you from Satan an evil suggestion, then seek refuge in Allah. Indeed, He is the Hearing, the Knowing.” [Qur’an, 41:36]",
+  "category": "quranAndSunnah",
+  "phase_id": {
+    "$oid": "655fb3668eeb935eaf1cf660"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:41:06.946Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:41:06.946Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc79bf51c1c92d2df8559"
+  },
+  "description": "'No love between two souls is greater than what is between the spouses'. Tafsir Ibn Kathir 3:525",
+  "category": "quranAndSunnah",
+  "phase_id": {
+    "$oid": "655fb3a78eeb935eaf1cf662"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:43:55.059Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:43:55.059Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc7c4f51c1c92d2df855b"
+  },
+  "description": "Among His signs is that He created for you mates from among yourselves, in order to have tranquility with them and He put love and mercy between your (hearts): verily in that are signs for those who reflect. Surah Rum, 30:21",
+  "category": "quranAndSunnah",
+  "phase_id": {
+    "$oid": "655fb3a78eeb935eaf1cf662"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:44:36.736Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-23T21:44:36.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "655fc88cf51c1c92d2df855d"
+  },
+  "description": "Seek knowledge from cradle to the grave.",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "6560ebf958e1696106b0b94f"
+  },
+  "createdAt": {
+    "$date": "2023-11-23T21:47:56.173Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:34:16.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a226d73c47acd8b4eb20"
+  },
+  "description": "How wonderful is the situation of a believer. There is good for him in everything and this applies only to a believer. If prosperity comes to him, he expresses gratitude to God and that is good for him; and if adversity befalls him, he endures it patiently and that is better for him.",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "6560a1b8d73c47acd8b4eb18"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:16:22.986Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T13:16:22.986Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a243d73c47acd8b4eb22"
+  },
+  "description": "“My sin burdened me heavily. But when I measured it against Your Grace, O Lord, Your forgiveness came out greater.” – Imam Shafii ",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "6560a1b8d73c47acd8b4eb18"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:16:51.459Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T13:16:51.459Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a27fd73c47acd8b4eb24"
+  },
+  "description": "“And if there comes to you from Satan an evil suggestion, then seek refuge in Allah. Indeed, He is the Hearing, the Knowing.” [Qur’an, 41:36] ",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1b8d73c47acd8b4eb18"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:17:51.711Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T13:17:51.711Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a2acd73c47acd8b4eb28"
+  },
+  "description": "“And whoever fears Allah – He will make for him a way out and will provide for him from where he does not expect. And whoever relies upon Allah – then He is sufficient for him. Indeed, Allah will accomplish His purpose. Allah has already set for everything a [decreed] extent.” [Qur’an, 65: 2-3]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1b8d73c47acd8b4eb18"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:18:36.685Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T13:18:36.685Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a38ed73c47acd8b4eb2e"
+  },
+  "description": "“And they planned and Allah also planned and Allah is the best of planners” - [Quran 3:54]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1c8d73c47acd8b4eb1c"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:22:22.882Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:38:25.551Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560a3f3d73c47acd8b4eb30"
+  },
+  "description": "“Indeed, if the heart is confused and anxious, there is nothing that can soothe it except the remembrance of Allah” - Ibn Al Qayyim",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "6560a1c8d73c47acd8b4eb1c"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T13:24:03.444Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:35:19.873Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560c8c97ddd0fe0c8b6c84b"
+  },
+  "description": "Know that if everyone joined together to do you good, they would only be able to do you the good that Allah has already written for you. And know that if they all gathered together to harm you, they could only do you the harm that Allah has already written for you. The quills have been lifted and the ink has dried.” [Tirmidhi, riyad as-salihin n°62, authenticated by sheikh al Albani]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1c4d73c47acd8b4eb1a"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:01:13.316Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:01:13.316Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560c9c358e1696106b0b91f"
+  },
+  "description": "A complaining tongue reveal ungrateful heart",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560c95958e1696106b0b91b"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:05:23.932Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:05:23.932Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560c9fe58e1696106b0b921"
+  },
+  "description": "“And He found you lost and guided [you]. And He found you poor and made [you] self-sufficient.” [Quran 93:7-8]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560c95958e1696106b0b91b"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:06:22.847Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:06:22.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560ca5d58e1696106b0b923"
+  },
+  "description": "“And We have already created man and know what his soul whispers to him, and We are closer to him than [his] jugular vein” [Quran 50:16]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "655fb3f38eeb935eaf1cf66e"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:07:57.780Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:07:57.780Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cabb58e1696106b0b925"
+  },
+  "description": "“The most beloved actions to Allah are those performed consistently, even if they are few.” [Sahih Bukhari]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1d3d73c47acd8b4eb1e"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:09:31.054Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:59:17.861Z"
+  },
+  "__v": 0,
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  }
+},
+{
+  "_id": {
+    "$oid": "6560cafd58e1696106b0b927"
+  },
+  "description": "“O Allaah, I take refuge in You from anxiety and sorrow, weakness and laziness, miserliness and cowardice, the burden of debts and from being over powered by men.” [Sahih Bukhari]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560a1d3d73c47acd8b4eb1e"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:10:37.529Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:58:13.591Z"
+  },
+  "__v": 0,
+  "phase_id": {
+    "$oid": "655f6ac7b7511e06f8e75854"
+  }
+},
+{
+  "_id": {
+    "$oid": "6560cb2e58e1696106b0b929"
+  },
+  "description": "“Allah does not burden a soul beyond what it can bear.” – Quran 2:286",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:11:26.453Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:11:26.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cb5c58e1696106b0b92b"
+  },
+  "description": "“Verily, after hardship comes ease.” – Quran 94:5",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:12:12.527Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:12:12.527Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cbe758e1696106b0b92d"
+  },
+  "description": "« Oh Allah! Indeed I am Your servant, Son of Your male servant and female servant My forelock is in Your Hand And Your Judgment upon me is assured, and Your Decree upon me is just I ask you with every name that You have named Yourself with Or revealed in Your Book (Quran), or taught to any of Your creation Or kept with Yourself in the knowledge of the unseen that is with You that you make the Quran the life of my heart, and the light of my chest and the banisher of my sadness and the reliever of my distress. » ",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "655fb3de8eeb935eaf1cf668"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:14:31.218Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:14:31.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cc8f58e1696106b0b92f"
+  },
+  "description": "The Holy Prophet (peace be upon him) said: “Take advantage of five matters before five other matters: your youth before you become old; your health, before you fall sick; your wealth, before you become poor; your free time before you become preoccupied, and your life, before your death.” [Musnad Imam Ahmad]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560ebf958e1696106b0b94f"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:17:19.310Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:40:40.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560ccc758e1696106b0b931"
+  },
+  "description": "The Holy Prophet (peace be upon him) said: “The feet of a servant will not touch the ground until he asked about his life and how he spent it; his knowledge and how he acted upon it; his wealth and how he acquired it and spent it and his body and how it was used.” [Tirmidhi]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560ebf958e1696106b0b94f"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:18:15.704Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:36:12.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560ccdd58e1696106b0b933"
+  },
+  "description": "Ali ibn Abi Talib said: “Whoever resists time is spited by it even more, and whoever surrenders to it is not safe either.” [Ghurarul Hikam]",
+  "category": "quote",
+  "mood_id": {
+    "$oid": "6560ebf958e1696106b0b94f"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:18:37.504Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T18:36:59.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cd4958e1696106b0b937"
+  },
+  "description": "“Indeed, Allah will not change the condition of a people until they change what is in themselves.” [Qur’an, 13:11]",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560cd0658e1696106b0b935"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:20:25.789Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:20:25.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560cddb58e1696106b0b939"
+  },
+  "description": "Abu Hurayra reported that the Messenger of Allah, may Allah bless him and grant him peace, said : “The person who is strong is not strong because he can knock people down. The person who is strong is the one who controls himself when he is angry.”",
+  "category": "quranAndSunnah",
+  "mood_id": {
+    "$oid": "6560cd0658e1696106b0b935"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:22:51.718Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:22:51.718Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560ce4258e1696106b0b93d"
+  },
+  "description": " Ali was heard to say to Ibn al-Kawwa', “Do you know what the first one said? 'Loving the one you love is an easy matter. It may be that one day he will be the one you hate. Hating the one who hate is an easy matter, It may be that one day he will be the one you hate.”",
+  "category": "islamicQuote",
+  "mood_id": {
+    "$oid": "6560cd0658e1696106b0b935"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:24:34.582Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:24:34.582Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6560ceaf58e1696106b0b93f"
+  },
+  "description": "Aslam said, Umar ibn al-Khattab said, “Do not let your love be a total infatuation. Do not let your anger be destruction.” I asked, “How is that?” He replied, “When you love, you are infatuated like a child. When you hate, you desire destruction for your companion.”",
+  "category": "islamicQuote",
+  "mood_id": {
+    "$oid": "6560cd0658e1696106b0b935"
+  },
+  "createdAt": {
+    "$date": "2023-11-24T16:26:23.521Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-24T16:26:23.521Z"
+  },
+  "__v": 0
+}]
