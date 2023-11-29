@@ -525,23 +525,6 @@
 },
 {
   "_id": {
-    "$oid": "6560ce2958e1696106b0b93b"
-  },
-  "description": " Ali was heard to say to Ibn al-Kawwa', “Do you know what the first one said? 'Loving the one you love is an easy matter. It may be that one day he will be the one you hate. Hating the one who hate is an easy matter, It may be that one day he will be the one you hate.”",
-  "category": "quranAndSunnah",
-  "mood_id": {
-    "$oid": "6560cd0658e1696106b0b935"
-  },
-  "createdAt": {
-    "$date": "2023-11-24T16:24:09.122Z"
-  },
-  "updatedAt": {
-    "$date": "2023-11-24T16:24:09.122Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
     "$oid": "6560ce4258e1696106b0b93d"
   },
   "description": " Ali was heard to say to Ibn al-Kawwa', “Do you know what the first one said? 'Loving the one you love is an easy matter. It may be that one day he will be the one you hate. Hating the one who hate is an easy matter, It may be that one day he will be the one you hate.”",

@@ -1,20 +1,17 @@
 import { ScrollView, View, Text } from 'react-native'
-// import QuotesComponent from '../../common/QuotesComponent'
+import QuotesComponent from '../../common/QuotesComponent'
 import React from 'react'  
 
-const QuotesLiked = () => {
+export default function QuotesLiked()  {
   return (
     <View>
       <ScrollView>
-     {/*    <QuotesComponent />
         <QuotesComponent />
         <QuotesComponent />
-        <QuotesComponent /> */}
-        <Text>COUCOU</Text>
+        <QuotesComponent />
       </ScrollView>
     </View>
   )
 };
 
-export default QuotesLiked
  

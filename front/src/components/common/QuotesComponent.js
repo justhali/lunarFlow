@@ -1,7 +1,7 @@
 import React from 'react';
 import { FlatList, View, Text, StyleSheet, Image } from 'react-native';
 import { AntDesign } from '@expo/vector-icons'
-import quotes from '../../api/LunarFlowAPI.quotes.json'
+import quotes from "../api/LunarFlowAPI.quotes.json"
 
 const QuotesComponent = () => {
       const imageURIs = [
