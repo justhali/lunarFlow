@@ -1,8 +1,12 @@
 
+import { ReactNode } from "react";
 import { View, StyleSheet, Pressable, Text } from "react-native";
 
-
-export default function Button({ onPress, children }) {
+interface ButtonProps{
+  onPress: () => void; 
+  children: ReactNode;
+}
+export default function Button({onPress, children}: ButtonProps){
 
 
   return (

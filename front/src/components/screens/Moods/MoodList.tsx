@@ -38,15 +38,15 @@ const  MoodList = () => {
   };
 
 
-  const getButtonBackgroundColor = (mood) => {
-    if (isMoodSelected(mood)) {
-      return 'rgba(255, 0, 0, 0.5)';
-    } else if (isPressed) {
-      return '#F26968';
-    } else {
-      return 'white';
-    }
-  };
+  // const getButtonBackgroundColor = (mood) => {
+  //   if (isMoodSelected(mood)) {
+  //     return 'rgba(255, 0, 0, 0.5)';
+  //   } else if (isPressed) {
+  //     return '#F26968';
+  //   } else {
+  //     return 'white';
+  //   }
+  // };
 
   return (
     <SafeAreaView style={styles.container}>
@@ -82,11 +82,12 @@ const  MoodList = () => {
 
       <Modal 
         animationType="slide" 
-        transparent={true} 
+        transparent={true}
         visible={modalVisible} 
         onRequestClose={handleModalClose}>
-        <View style={styles.modalContainer}>
-          <View style={styles.modalContent}>
+        <View >
+          {/* TODO: add style on modalContainer */}
+          <View>
             <Text>Entries added successfully!</Text>
             <TouchableOpacity onPress={handleModalClose}>
               <Text>Close</Text>

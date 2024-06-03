@@ -13,8 +13,7 @@ const Tab = createBottomTabNavigator();
 
 export default function BottomTabs() {
     return (
-        <Tab.Navigator initialRouteName='Dashboard'
-        >
+        <Tab.Navigator initialRouteName='Dashboard'>
 
             <Tab.Screen
                 name="Liked"
@@ -35,7 +34,7 @@ export default function BottomTabs() {
                     ),
                 }}
             >
-                
+
             </Tab.Screen>
             <Tab.Screen
                 name='Calendar'
@@ -46,7 +45,7 @@ export default function BottomTabs() {
                     ),
                 }}
             >
-                
+
             </Tab.Screen>
             <Tab.Screen
                 name='Profile'
@@ -57,7 +56,7 @@ export default function BottomTabs() {
                     ),
                 }}
             >
-               
+
             </Tab.Screen>
 
 
